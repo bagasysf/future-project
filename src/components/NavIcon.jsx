@@ -1,9 +1,10 @@
 import React from "react";
 
-const MenuIcon = () => {
+const NavIcon = () => {
   return (
     <>
       <img
+        className="lg:hidden"
         src={process.env.PUBLIC_URL + "/icons/menu-icon.svg"}
         alt="menu-icon"
       ></img>
@@ -11,4 +12,4 @@ const MenuIcon = () => {
   );
 };
 
-export default MenuIcon;
+export default NavIcon;
